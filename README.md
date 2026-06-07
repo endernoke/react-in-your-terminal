@@ -27,6 +27,8 @@ Prerequisites:
 
 - **presenterm** for rendering the slides in the terminal. You may install here: [https://mfontanini.github.io/presenterm/install.html](https://mfontanini.github.io/presenterm/install.html)
 - **node.js 22+** for running the code snippets
+- **figlet** for rendering the big text banners
+- [qrrs](https://github.com/lenivaya/qrrs) for displaying the QR code at the end
 
 Instructions:
 
