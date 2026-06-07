@@ -73,7 +73,7 @@ How TUIs Work
 
 ```bash +exec_replace  +no_background  +pty:3:1
 echo  -ne  "\e[?25l"
-python3 spinner.py
+npx tsx spinner.ts
 ```
 
 <!--  end_slide  -->
@@ -136,7 +136,7 @@ Using Unicode
 ## Box-drawing characters
 
 ```bash +exec_replace
-node  --import=tsx  scripts/box.tsx
+npx tsx  scripts/box.tsx
 ```
 
 <!--  pause  -->
@@ -171,7 +171,7 @@ Ink
 
 ```bash +exec_replace  +no_background  +pty:3:1
 echo  -ne  "\e[?25l"
-uv  run  spinner.py
+npx tsx spinner.ts
 ```
 
 <!--  end_slide  -->
@@ -503,11 +503,11 @@ Ink Ecosystem
 
 ```
 my-cli/
-    commands/
-    auth/
-        login.tsx
-        logout.tsx
-    start.tsx
+└── commands/
+    ├── auth/
+    │   ├── login.tsx
+    │   └── logout.tsx
+    └── start.tsx
 ```
 
 ```bash
@@ -594,7 +594,7 @@ Instagram CLI
 
 ```bash +exec_replace  +no_background  +pty:3:1
 echo  -ne  "\e[?25l"
-python3 spinner.py
+npx tsx spinner.ts
 ```
 
 <!--  end_slide  -->
@@ -663,12 +663,12 @@ qrrs  -i  "https://github.com/vadimdemedes/ink"
 
 ## Reach out
 
-✉️ Email: endernoke@gmail.com
+✉️ Email:    endernoke@gmail.com
 
-⭐ GitHub: @endernoke
+⭐ GitHub:   @endernoke
 
-𝕏 X: @endernoke
+𝕏 X:         @endernoke
 
-🎮 Discord: @endernoke
+🎮 Discord:  @endernoke
 
 🤝 LinkedIn: in/james-zheng-zi
